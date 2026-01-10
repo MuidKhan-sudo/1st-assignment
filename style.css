@@ -90,13 +90,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 #second {
     border-radius: 4px;
     align-items: center;
     gap: 6px;
-    padding: 8px 12px;
+    padding: 12px 16px;
     display: flex;
     color: white;
     background-color: transparent;
@@ -111,6 +112,7 @@ nav {
 
 header section {
     background: url(hero-bg.png);
+    
 }
 
 header {
@@ -221,7 +223,7 @@ header {
 
 #checkbox {
     margin-top: 40px;
-   
+
 }
 
 #checkbox p {
@@ -231,3 +233,78 @@ header {
     gap: 5px;
     margin-bottom: 16px;
 }
+
+#conclusion {
+    padding: 2px 120px 120px 120px;
+}
+
+#conclusion #container {
+    background-color: #F7F6F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 120px;
+    border-radius: 20px;
+}
+
+#container h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#container span {
+    color: #627382;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+#container button {
+    color: #ffffff;
+    padding: 12px 16px;
+    background-color: #30B868;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+#p {
+    color: #627382;
+    text-align: center;
+}
+
+footer {
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    
+}
+
+#footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+#footer-cont p{
+    color: white;
+}
+
+#copy {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 30px;
+    color: #FAFAFA;
+    border-top: 1px solid #075628 ;
+}
+#link img{
+    margin-right: 16px;
+    margin-top: 16px;
+}
+#link p{
+    
+    font-size: 20px;
+}
+
