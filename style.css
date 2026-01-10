@@ -110,6 +110,72 @@ nav {
 }
 
 header section {
-    background: url(/assets/hero-bg.png);
+    background: url(hero-bg.png);
 }
-header{height: 674px;}
+
+header {
+    height: 674px;
+}
+
+#main #heading {
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#main #heading h2 {
+    font-size: 48px;
+    font-weight: bold;color: #001931; margin-bottom: 16px;letter-spacing: 2px;
+}
+#main #heading p{color: #627382;}
+
+#cards-cont {
+
+    max-width: 1360px;
+    width: 85%;
+    margin: 44px auto;
+    display: flex;
+    gap: 24px;
+    height: 300px;
+    align-items: center;
+}
+
+#main {
+    padding-top: 16px;
+    height: 616px;
+    
+
+}
+
+#cards-cont .card {
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.119);
+    max-width: 322px;
+    height: 300px;
+
+}
+.card p{color: #627382;}
+
+#cards-cont .card img {
+    max-width: 60px;
+    background-color: #F95555;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+#cards-cont .card h3 {
+    text-align: center;
+}
+
+#cards-cont .card p {
+    text-align: center;
+}
